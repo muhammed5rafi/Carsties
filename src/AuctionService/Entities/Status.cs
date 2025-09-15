@@ -2,7 +2,7 @@ namespace AuctionService.Entities;
 
 public enum Status
 {
-    live,
+    Live,
     Finished,
     ReserveNotMet
 
