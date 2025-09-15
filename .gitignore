@@ -1,0 +1,70 @@
+# -----------------
+# .NET Core
+# -----------------
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# -----------------
+# Node.js / JS frameworks
+# -----------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# -----------------
+# Logs & Temp files
+# -----------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# -----------------
+# Environment files
+# -----------------
+.env
+.env.*
+!.env.example
+
+# -----------------
+# Build outputs
+# -----------------
+dist/
+build/
+out/
+coverage/
+coverage-final.json
+.nyc_output/
+
+# -----------------
+# Docker
+# -----------------
+/data
+/docker-compose.override.yml
+
+# -----------------
+# OS files
+# -----------------
+.DS_Store
+Thumbs.db
